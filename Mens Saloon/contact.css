@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa", cursive;
+  }
+  .container-fluid {
+    width: 100%;
+    background: rgb(251, 247, 247);
+    color: rgb(12, 12, 12);
+  }
+  .navbar {
+    width: 1200px;
+    height: 116px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }  .navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+  .navbar a {
+    color: black;
+    margin-right: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  .navbar a:hover {
+    color: rgb(238, 14, 14);
+  }
+  .navbar .btn {
+    width: 140px;
+    height: 45px;
+    background: #e33;
+    border-radius: 25px;
+    border: 2px solid #e33;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+  }
+  .navbar .btn:hover {
+    background: #e11;
+  }
+
+/* /////////////////////////////////// */
+
+
+  .im {
+    position: relative;
+    text-align: center;
+    color: rgb(239, 232, 232);
+    
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 230px;
+    left: 500px;
+  }
+
+  .im2{
+    width: auto;
+    background-color: rgb(251, 251, 251);
+   
+    position: relative;
+      display: block;
+  
+      max-width: 100%;
+      height: auto;
+      margin: 150px;
+  }  
+
+  .top-right {
+  
+    position: absolute;
+    top: 8px;
+    right: 100px;
+    width: 600px;
+    background-color: rgb(229, 230, 222);
+  }
+ 
+  .fo{
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 250px;
+    height: 100px;
+    background-color: #aa9144;
+  }
+  .fo,p{
+    padding-top: 20px;
+  }
+  p1{
+    font-size: small;
+  }
+  
+  
+  .btn-lg {
+    font-size: 14px;
+    padding: 20px 30px;
+  }
+  .btn-white {
+    color: #aa9144;
+    background-color: #fff;
+    border: 1px solid #fff;
+  }
+  .btn {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.42857143;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 100px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  .btn:hover{
+    background-color: bisque;
+    color: black;
+  }
+  
+  .fo2 {
+    
+    position: absolute;
+    top: 1350px;
+    right: 200px;
+    
+   
+  }
+
+
